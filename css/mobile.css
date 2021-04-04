@@ -1,0 +1,156 @@
+/* mobile */
+
+* {
+  font-size: 15px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+#main_header {
+  width: 100%;
+  text-align: center;
+}
+
+#main_header .container {
+  width: 100%;
+}
+
+#main_header h1 img {
+  position: relative;
+  /* font-size: 20px; */
+  width: 20%;
+}
+
+#gnb {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: #f7f6f6;
+  text-align: center;
+}
+
+#gnb a {
+  display: block;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+#gnb > ul > li {
+  float: left;
+  width: 25%;
+  margin: 0;
+}
+
+#visual .container {
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#visual .main_img {
+  position: absolute;
+  left: 18%; bottom: 35%;
+  background: white;
+}
+
+#visual .title-group h2 {
+  font-size: 20px;
+}
+
+#visual .title-group h2 span{
+  font-size: 30px;
+}
+
+#about {
+  height: auto;
+  padding: 100px 15px;
+  overflow: hidden;
+}
+
+#about .photo > img {
+  box-shadow: -30px -30px 0 #313131;
+}
+
+.profile h3 {
+  margin-right: 10%;
+  float: left;
+}
+
+.education h3 {
+  float: left;
+  margin-right: 4%;
+  height: 18vh;
+  /* outline: 1px solid blue; */
+}
+
+.certificate h3 {
+  float: left;
+  margin-right: 4%;
+  height: 7vh;
+  /* outline: 1px solid blue; */
+}
+
+.profile p,
+.education p,
+.certificate p {
+    font-size: 14px;
+}
+
+#works .list .cap {
+  position: absolute;
+  transform: translateY(-100%);
+  width: 100%;
+  height: 50%;
+  line-height: 400px;
+  color: #000;
+  opacity: 0;
+}
+
+#works .list .cap:hover {
+  transition: 0.5s;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+#contact .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about .photo > img {
+  box-shadow: -50px -50px 0 #202020;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+#contact .container h2 {
+  position: absolute;
+  width: 100%;
+  margin-top: -35%;
+  padding-top: 0%;
+  /* outline: 1px solid blue; */
+}
+
+#contact .con {
+  margin-bottom: 7%;
+  /* outline: 1px solid red; */
+}
+
+#contact .sns_box {
+  margin-bottom: 3%;
+}
+
+#contact .copy p { 
+  margin-bottom: -10%;
+
+}
+
+.topbtn img {
+  float: right;
+  width: 6%;
+  margin-right: 10%;
+  margin-top: -20%;
+}
